@@ -1,0 +1,25 @@
+name: api_testing_agent
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.7.2
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  langchain: ^0.7.7+2
+  langchain_core: ^0.3.6+1
+  langchain_openai: ^0.7.3
+  langchain_ollama: ^0.3.2+2
+  dotenv: ^4.2.0
+  openai_dart: ^0.4.5
+  langchain_community: ^0.3.3 
+  http: ^1.1.1
+  meta: ^1.16.0
+  
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
